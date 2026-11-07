@@ -1,0 +1,35 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-inline: 100px;
+    gap: 10px;
+}
+.MENUS{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    height: 300px;
+
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+button{
+    width: 75%;
+    color: #000000;
+    
+}
